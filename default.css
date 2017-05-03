@@ -1,0 +1,674 @@
+@font-face {
+    font-family: gillsans;
+    src: url(gillsans.ttc);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #9e191a;
+}
+
+#navnews {
+    color: #9e191a;
+    font-size:24px;
+    position: absolute;
+    left: 275px;
+    top: 57px;
+    font-family: gillsans;
+    -webkit-transition: width 1s;
+    transition: .5s;
+}
+
+#navnews:hover {
+    color: #9e191a;
+    font-size:28px;
+    position: absolute;
+    left: 270px;
+    top: 52px;
+    font-family: gillsans;
+}
+
+#navsports {
+    color: #9e191a;
+    font-size:24px;
+    position: absolute;
+    left: 375px;
+    top: 57px;
+    font-family: gillsans;
+        -webkit-transition: width 1s;
+    transition: .5s;
+}
+
+#navsports:hover {
+    color: #9e191a;
+    font-size:28px;
+    position: absolute;
+    left: 370px;
+    top: 52px;
+    font-family: gillsans;
+}
+
+#navlife {
+    color: #9e191a;
+    font-size:24px;
+    position: absolute;
+    left: 485px;
+    top: 57px;
+    font-family: gillsans;
+        -webkit-transition: width 1s;
+    transition: .5s;
+}
+
+#navlife:hover {
+    color: #9e191a;
+    font-size:28px;
+    position: absolute;
+    left: 480px;
+    top: 52px;
+    font-family: gillsans;
+}
+
+#navobituaries {
+    color: #9e191a;
+    font-size:24px;
+    position: absolute;
+    left: 570px;
+    top: 57px;
+    font-family: gillsans;
+        -webkit-transition: width 1s;
+    transition: .5s;
+}
+
+#navobituaries:hover {
+    color: #9e191a;
+    font-size:28px;
+    position: absolute;
+    left: 565px;
+    top: 52px;
+    font-family: gillsans;
+}
+
+#navopinion {
+    color: #9e191a;
+    font-size:24px;
+    position: absolute;
+    left: 715px;
+    top: 57px;
+    font-family: gillsans;
+        -webkit-transition: width 1s;
+    transition: .5s;
+}
+
+#navopinion:hover {
+    color: #9e191a;
+    font-size:28px;
+    position: absolute;
+    left: 710px;
+    top: 52px;
+    font-family: gillsans;
+}
+
+#line { 
+    background-color: #9e191a;
+    width: 200px;
+    height: 6px;
+    position: absolute;
+    left: 50px;
+    top: 68px
+}
+
+#linecont {
+    background-color: #9e191a;
+    width: 200px;
+    height: 6px;
+    position: absolute;
+    left: 820px;
+    top: 68px
+}
+
+#newsline {
+    background-color: #9e191a;
+    width: 1000px;
+    height: 6px;
+    position: absolute;
+    left: 0px;
+    top: 450px;
+}
+
+#sportsline {
+    background-color: #9e191a;
+    width: 1000px;
+    height: 6px;
+    position: absolute;
+    left: 0px;
+    top: 700px; 
+}
+
+#lifeline {
+    background-color: #9e191a;
+    width: 1000px;
+    height: 6px;
+    position: absolute;
+    left: 0px;
+    top: 950px; 
+}
+
+#header {
+    width: 1000px;
+    position: absolute;
+    left: 0px;
+    top: 90px;
+}
+
+#logo {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+#newsheader {
+    background-color: #9e191a;
+    position: absolute; 
+    color: white;
+    left: 30px;
+    top: 420px;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing:3px;
+    width: 120px;
+    height: 30px;
+    font-family: gillsans;
+    -webkit-transition: width 1s;
+    transition: .5s;
+        
+}
+
+#newsheader:hover {
+    background-color: #9e191a;
+    position: absolute; 
+    color: white;
+    left: 0px;
+    top: 420px;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing:3px;
+    width: 1000px;
+    height: 30px;
+    font-family: gillsans;
+}
+    
+#sportsheader {
+    background-color: #9e191a;
+    position: absolute; 
+    color: white;
+    left: 800px;
+    top: 670px;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing:3px;
+    width: 150px;
+    height: 30px;
+    font-family: gillsans;
+    -webkit-transition: width 1s;
+    transition: .5s;
+}
+
+#sportsheader:hover {
+    background-color: #9e191a;
+    position: absolute; 
+    color: white;
+    left: 0px;
+    top: 670px;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing:3px;
+    width: 1000px;
+    height: 30px;
+    font-family: gillsans;
+}
+
+#lifeheader {
+    background-color: #9e191a;
+    position: absolute; 
+    color: white;
+    left: 30px;
+    top: 920px;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing:3px;
+    width: 100px;
+    height: 30px;
+    font-family: gillsans;
+    -webkit-transition: width 1s;
+    transition: .5s;
+}
+
+#lifeheader:hover {
+    background-color: #9e191a;
+    position: absolute; 
+    color: white;
+    left: 0px;
+    top: 920px;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing:3px;
+    width: 1000px;
+    height: 30px;
+    font-family: gillsans;
+}
+
+#newsgrey {
+    position: absolute;
+    background-color: lightgrey;
+    left:0px;
+    top: 456px;
+    width: 1000px;
+    height: 200px;
+}
+
+
+#news {
+    position: absolute;
+    left: 0px;
+    top: 456px;
+    width: 350px;
+    height: 200px;
+}
+
+#newstext1 {
+    position: absolute;
+    left: 370px;
+    top: 480px;
+    font-size: 20px;
+    font-family: gillsans;
+    color: #9e191a;
+}
+
+#subtextnews1 {
+    position: absolute;
+    left: 370px;
+    top: 570px;
+    font-size: 13.5px;
+    font-family: gillsans;
+    color: black;
+}
+
+
+#newstext2 {
+    position: absolute;
+    left: 590px;
+    top: 480px;
+    font-size: 20px;
+    font-family: gillsans;
+    color: #9e191a;
+}
+
+#subtextnews2 {
+    position: absolute;
+    left: 590px;
+    top: 570px;
+    font-size: 13.5px;
+    font-family: gillsans;
+    color: black;
+}
+
+#newstext3 {
+    position: absolute;
+    left: 790px;
+    top: 480px;
+    font-size: 20px;
+    font-family: gillsans;
+    color: #9e191a;
+}
+
+#subtextnews3 {
+    position: absolute;
+    left: 790px;
+    top: 570px;
+    font-size: 13.5px;
+    font-family: gillsans;
+    color: black;
+}
+
+#greyline {
+    background-color: grey;
+    width: 2px;
+    height: 170px;
+    position: absolute;
+    left: 560px;
+    top: 470px;
+}
+
+#sportsgrey {
+    position: absolute;
+    background-color: lightgray;
+    left:0px;
+    top: 706px;
+    width: 1000px;
+    height: 200px;
+}
+
+#sports {
+    position: absolute;
+    left: 650px;
+    top: 706px;
+    width: 350px;
+    height: 200px;
+}
+
+#sportstext1 {
+    position: absolute;
+    left: 460px;
+    top: 730px;
+    font-size: 20px;
+    font-family: gillsans;
+    color: #9e191a;
+}
+
+
+#subtextsports1 {
+    position: absolute;
+    left: 460px;
+    top: 820px;
+    font-size: 13.5px;
+    font-family: gillsans;
+    color: black;
+}
+
+#greyline2 {
+    background-color: grey;
+    width: 2px;
+    height: 170px;
+    position: absolute;
+    left: 435px;
+    top: 720px;
+}
+
+#sportstext2 {
+    position: absolute;
+    left: 245px;
+    top: 730px;
+    font-size: 20px;
+    font-family: gillsans;
+    color: #9e191a;
+}
+
+#subtextsports2 {
+    position: absolute;
+    left: 245px;
+    top: 820px;
+    font-size: 13.5px;
+    font-family: gillsans;
+    color: black;
+}
+
+#sportstext3 {
+    position: absolute;
+    left: 35px;
+    top: 730px;
+    font-size: 20px;
+    font-family: gillsans;
+    color: #9e191a;
+}
+
+#subtextsports3 {
+    position: absolute;
+    left: 35px;
+    top: 820px;
+    font-size: 13.5px;
+    font-family: gillsans;
+    color: black;
+}
+
+
+#lifegrey {
+    position: absolute;
+    background-color: lightgray;
+    left:0px;
+    top: 956px;
+    width: 1000px;
+    height: 200px;
+}
+
+#life { 
+    position: absolute;
+    left: 0px;
+    top: 956px;
+    width: 350px;
+    height: 200px;
+}
+
+#lifetext1 {
+    position: absolute;
+    left: 370px;
+    top: 980px;
+    font-size: 20px;
+    font-family: gillsans;
+    color: #9e191a;
+}
+
+#subtextlife1 {
+    position: absolute;
+    left: 370px;
+    top: 1070px;
+    font-size: 13.5px;
+    font-family: gillsans;
+    color: black;
+}
+
+#greyline3 {
+    background-color: grey;
+    width: 2px;
+    height: 170px;
+    position: absolute;
+    left: 565px;
+    top: 970px;
+}
+
+
+#lifetext2 {
+    position: absolute;
+    left: 590px;
+    top: 980px;
+    font-size: 20px;
+    font-family: gillsans;
+    color: #9e191a;
+}
+
+#subtextlife2 {
+    position: absolute;
+    left: 590px;
+    top: 1070px;
+    font-size: 13.5px;
+    font-family: gillsans;
+    color: black;
+}
+
+#lifetext3 {
+    position: absolute;
+    left: 790px;
+    top: 980px;
+    font-size: 20px;
+    font-family: gillsans;
+    color: #9e191a;
+}
+
+#subtextlife3 {
+    position: absolute;
+    left: 790px;
+    top: 1070px;
+    font-size: 13.5px;
+    font-family: gillsans;
+    color: black;
+}
+
+
+#footer {
+    background-color: #9e191a;
+    width: 350px;
+    height: 6px;
+    position: absolute;
+    left: 0px;
+    top: 1250px;
+    
+}
+
+#footer2 {
+    background-color: #9e191a;
+    width: 350px;
+    height: 6px;
+    position: absolute;
+    left: 650px;
+    top: 1250px;
+    
+}
+
+#facebook {
+    position: absolute;
+    left: 390px;
+    top: 1240px;
+    width: 30px;
+    height: 30px;
+}
+
+#twitter {
+    position: absolute;
+    left: 450px;
+    top: 1240px;
+    width: 30px;
+    height: 30px;
+}
+
+#linkedin {
+    position: absolute;
+    left: 510px;
+    top: 1240px;
+    width: 30px;
+    height: 30px;
+}
+
+#gmail {
+    position: absolute;
+    left: 570px;
+    top: 1240px;
+    width: 30px;
+    height: 30px;
+}
+
+#headertext {
+    background-color: black; 
+    position: absolute;
+    left: 680px;
+    top: 100px;
+    font-size: 20px;
+    font-family: gillsans;
+    color: white;
+}
+
+
+#bottom {
+    position: absolute;
+    background-color: #9e191a;
+    left: 0px;
+    top: 1400px;
+    height: 100px;
+    width: 1000px;
+}
+
+#woodbury {
+    position: absolute;
+    left: 300px;
+    top: 1430px;
+    color: white;
+    font-family: gillsans;
+    
+}
+
+
+#woodbury2 {
+    position: absolute;
+    left: 250px;
+    top: 1455px;
+    color: white;
+    font-family: gillsans;
+    
+}
+
+#white {
+    background-color: white;
+    width: 900px;
+    height: 2px;
+    position: absolute;
+    left: 50px;
+    top: 1480px;
+    
+}
+
+
+#white2 {
+    background-color: white;
+    width: 900px;
+    height: 2px;
+    position: absolute;
+    left: 50px;
+    top: 1420px;
+    
+}
+
+#ad {
+    position: absolute;
+    left: 190px;
+    top: 1265px;
+    width: 600px;
+    
+    
+}
+
+
+.container {
+    width: 1000px;
+    height: 1500px;
+    overflow: hidden;
+    position: absolute;
+}
+     
+
+
+#headercap {
+    position: absolute;
+    left: 0px;
+    top: 360px;
+    background-color: #9e191a;
+    width: 1000px;
+    height: 40px;
+}
+
+#cap {
+    position: absolute;
+    left: 110px;
+    top: 366px;
+    color:white;
+    font-size: 25px;
+    font-family: gillsans;
+    
+    
+}
+
+
+
